@@ -36,10 +36,10 @@ Samuel_Sowah_Mensah = Genius()
 
 ```
 
-    | Say Hello |
-----|-----------|
-name|<input type="text" name="email"/>|
-message|<textarea></textarea>|
+|       | Say Hello                       |
+|-------|---------------------------------|
+|  name |<input type="text" name="email"/>|
+|message|<textarea></textarea>            |
 
 
 ### Skills
