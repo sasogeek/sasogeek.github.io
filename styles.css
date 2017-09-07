@@ -1,0 +1,240 @@
+body {
+	background-image: url('brand.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+nav {
+	height: 8vh;
+	width: 100vw;
+	background: #268bca;
+	margin: -8px 0px 0px -8px;
+	animation: fadeIn 1s;
+}
+
+nav > div.logo {
+	font-family: helvetica;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+	float: left;
+	animation: fadein 0.5s;
+	font-weight: bold;
+}
+
+div.nav-item.first {
+	font-family: monospace;
+	color: white;
+	font-size: 16px;
+	padding: 22px;
+	float: left;
+	animation: fadein 0.5s;
+	animation-delay: 0s;
+}
+
+div.nav-item.first:hover {
+	background: rgba(255,255,0,0.5);
+	margin-top: -4px;
+	cursor: pointer;
+	height: 13px;
+	animation: highlighted 0.5s;
+
+}
+
+div.nav-item.second {
+	font-family: monospace;
+	color: white;
+	font-size: 16px;
+	padding: 22px;
+	float: left;
+	animation: fadein 0.5s;
+	animation-delay: 0.05s;
+}
+
+div.nav-item.second:hover {
+	background: rgba(255,255,0,0.5);
+	margin-top: -4px;
+	cursor: pointer;
+	height: 13px;
+	animation: highlighted 0.5s;
+
+}
+
+div.nav-item.third {
+	font-family: monospace;
+	color: white;
+	font-size: 16px;
+	padding: 22px;
+	float: left;
+	animation: fadein 0.5s;
+	animation-delay: 0.1s;
+}
+
+div.nav-item.third:hover {
+	background: rgba(255,255,0,0.5);
+	margin-top: -4px;
+	cursor: pointer;
+	height: 13px;
+	animation: highlighted 0.5s;
+
+}
+
+.home-container {
+	width:100vw;
+	min-height: 90vh;
+	max-height: auto;
+	background-color: rgba(0,0,0,0.5);
+	margin: 0px 0px 0px -8px;
+	animation: fadein 0.5s;
+	animation-delay: 0.1s;
+}
+
+.home-container > div {
+	padding: 50px;
+	color: white;
+	text-shadow: 1px 1px black;
+	animation: fadein 0.5s;
+	animation-delay: 0.1s;
+}
+
+.slide-left {
+	clear: left;
+	animation: slideLeft 2s;
+}
+
+.slide-right {
+	clear: left;
+	animation: slideRight 2s;
+}
+
+.paragraph {
+	word-wrap: break-word;
+	width: 80vw;
+	margin-bottom: 20px;
+	font-family: monospace;
+	max-width: 80vw;
+	
+}
+
+h1 {
+	font-family: monospace;
+	font-size: 30px;
+	margin-bottom: 20px;
+	max-width: 80vw;
+}
+
+.card {
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 2px;
+	box-shadow: 1px 1px black;
+	text-shadow: 1px 1px black;
+	color: white;
+	width: 500px;
+	height: 300px;
+	margin-bottom: 20px;
+	max-width: 80vw;
+	padding: 20px;
+	font-size:16px;
+
+}
+
+.function {
+	color: orange;
+}
+
+.function-name {
+	color: cyan;
+}
+
+.string {
+	color: lime;
+}
+
+.link {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.self {
+	color: lightblue;
+}
+
+input {
+	width: 405px;
+	height: 30px;
+	border-radius: 2px;
+	background: rgba(255,255,255,0.9);
+	box-shadow: 2px 2px solid black;
+	border: 0;
+}
+
+textarea {
+	width: 400px;
+	height: 200px;
+	max-width: 400px;
+	border-radius: 2px;
+	background: rgba(255,255,255,0.9);
+	box-shadow: 2px 2px solid black;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	background-color: #268bca;
+	color: white;
+	font-family: monospace;
+	border: 0;
+	box-shadow: 2px 2px solid #555555;
+	float: right;
+}
+
+
+footer {
+	height: 8vh;
+	width: 100vw;
+	background: #268bca;
+	margin: -8px 0px 0px -8px;
+	bottom: 0px;
+	position: fixed;
+}
+
+footer > div {
+	width: 300px;
+	margin: 0 auto;
+	color: white;
+	font-family: helvetica;
+	padding: 3vh 0 0 0;
+}
+
+@keyframes fadeIn {
+   0% {opacity: 0; background: blue;}
+   100% {opacity: 1; background: #268bca;}
+}
+
+@keyframes fadein {
+   0% {opacity: 0; margin-top:-13px;}
+   100% {opacity: 1; margin-top: :0px;}
+}
+
+@keyframes highlighted {
+   0% {
+	margin-top: 0px; height: 13px;}
+
+   100% {background: rgba(255,255,0,0.5);
+	color: white;
+	margin-top: -4px;}
+}
+
+@keyframes slideRight {
+   0% {margin-left: -700px;}
+
+   100% {margin-left: 0px;}
+}
+
+@keyframes slideLeft {
+   0% {margin-left: 700px;}
+
+   100% {margin-left: 0px;}
+}

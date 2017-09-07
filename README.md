@@ -36,10 +36,17 @@ Samuel_Sowah_Mensah = Genius()
 
 ```
 
+<<<<<<< HEAD
 |       | Say Hello                       |
 |-------|---------------------------------|
 |  name |<input type="text" name="email"/>|
 |message|<textarea></textarea>            |
+=======
+|           | Follow Me                         |
+|-----------|-----------------------------------|
+|  facebook |(https://facebook.com/sasogeek)|
+|  twitter  |(https://twitter.com/sasogeek  |            |
+>>>>>>> master
 
 
 ### Skills
