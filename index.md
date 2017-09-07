@@ -1,5 +1,5 @@
 # SASOGEEK
-[Visit my website](http://sasogeek.com)
+If you want to know more about me, [visit my website](http://sasogeek.com), or just keep reading this page.
 
 ```python
 name = "Samuel Sowah Mensah"
