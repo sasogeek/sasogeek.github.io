@@ -8,16 +8,16 @@ brand_name = "SASOGEEK"
 occupation = "Entrepreneur In Training"
 
 def facebook():
-    return "[https://facebook.com/sasogeek](https://facebook.com/sasogeek)"
+    return "https://facebook.com/sasogeek"
 
 def twitter():
-    return "[https://twitter.com/sasogeek](https://twitter.com/sasogeek)"
+    return "https://twitter.com/sasogeek"
 
 def instagram():
-    return "[https://instagram.com/sasogeek](https://instagram.com/sasogeek)"
+    return "https://instagram.com/sasogeek"
 
 def linkedIn():
-    return "[https://linkedin.com/in/sasogeek](https://linkedin.com/in/sasogeek)"
+    return "https://linkedin.com/in/sasogeek"
 
 
 class Genius(FounderStory):
@@ -36,10 +36,10 @@ Samuel_Sowah_Mensah = Genius()
 
 ```
 
-    | Say Hello |
-----|-----------|
-name|<input type="text" name="email"/>|
-message|<textarea></textarea>|
+|       | Say Hello                       |
+|-------|---------------------------------|
+|  name |<input type="text" name="email"/>|
+|message|<textarea></textarea>            |
 
 
 ### Skills
