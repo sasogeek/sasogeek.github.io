@@ -36,10 +36,10 @@ Samuel_Sowah_Mensah = Genius()
 
 ```
 
-|           | Follow Me                         |
-|-----------|-----------------------------------|
-|  facebook |(https://facebook.com/sasogeek)|
-|  twitter  |(https://twitter.com/sasogeek  |
+|           | Follow Me                     |
+|-----------|-------------------------------|
+|  facebook | https://facebook.com/sasogeek |
+|  twitter  | https://twitter.com/sasogeek  |
 
 
 ### Skills
